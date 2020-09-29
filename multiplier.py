@@ -3,10 +3,13 @@
 n = int(input("enter your no. ="))
 
 if n> 100:
-     print("not possible")  
+     print("not possible")
+if n == 0:
+     print("0")     
+
     
 for i in range(1,101):
-   if i*n<= 100:
+   if 1<=i*n<= 100:
      print(i*n)
     
     
