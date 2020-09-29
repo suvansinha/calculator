@@ -2,7 +2,7 @@
   
 n = int(input("enter your no. ="))
 
-if n> 100:
+if n> 100 or n<0:
      print("not possible")
 if n == 0:
      print("0")     
