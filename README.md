@@ -1,4 +1,4 @@
-# calculator
+# Calculator
 simple calculator with python
 
 ## Features
