@@ -39,7 +39,14 @@ elif option == '3':
     print(num1, "*", num2,"=", multiply(num1,num2))       
 
 elif option == '4':
-    print(num1, "/", num2,"=", divide(num1,num2))
+    try:
+        print(num1, "/", num2,"=", divide(num1,num2))
+    
+    except Exception as error:
+        print (error)
+        print ("Cannot Divide by zero")
+    
+    except Ex
     
 else:
     print("error!invalid input")     
