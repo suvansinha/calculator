@@ -17,25 +17,7 @@ def main():
         a = eval(input('What is the angle measure? '))
         result = math.tan(math.radians(a))
         print('The answer is '+str(round(result,3)))    
-        main()    
-        
-    elif trig == 'cotangent' or trig == 'cot':
-        a = eval(input('What is the angle measure? '))
-        result = math.cot(math.radians(a))
-        print('The answer is '+str(round(result,3)))    
-        main()    
-        
-    elif trig == 'secant' or trig == 'sec':
-        a = eval(input('What is the angle measure? '))
-        result = math.sec(math.radians(a))
-        print('The answer is '+str(round(result,3)))    
-        main()  
-        
-    elif trig == 'cosecant' or trig == 'cosec':
-        a = eval(input('What is the angle measure? '))
-        result = math.cosec(math.radians(a))
-        print('The answer is '+str(round(result,3)))    
-        main()    
+        main()      
         
     else:
         print('Sorry wrong input')
